@@ -22,10 +22,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var numberField: UITextField!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var telePhoneField: UITextField!
-    
-    let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
-    
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         if let aNumber = number {
@@ -51,7 +48,6 @@ class DetailViewController: UIViewController {
         let alertView = UIAlertView(title: "Alert", message: content, delegate: nil, cancelButtonTitle: "ok")
         alertView.show()
     }
-    
     
     @IBAction func saveData(sender: AnyObject) {
         
