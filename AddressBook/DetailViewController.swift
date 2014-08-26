@@ -13,7 +13,7 @@ protocol AddDataProtocol {
 }
 
 class DetailViewController: UIViewController {
-
+    
     var number: Int?
     var name: String?
     var telePhone: String?
@@ -22,6 +22,9 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var numberField: UITextField!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var telePhoneField: UITextField!
+    
+    let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,24 +41,34 @@ class DetailViewController: UIViewController {
         }
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    func Alert(content: String) {
+        let alertView = UIAlertView(title: "Alert", message: content, delegate: nil, cancelButtonTitle: "ok")
+        alertView.show()
+    }
+    
+    
     @IBAction func saveData(sender: AnyObject) {
+        
         if !numberField.text || numberField.text == "" {
             println("number is not exist")
-            return ;
+            Alert("number is not exist")
+            return
         }
         if !nameField.text || numberField.text == "" {
             println("name is not exist")
-            return ;
+            Alert("name is not exist")
+            return
         }
         if !telePhoneField.text || telePhoneField.text == "" {
-            println("phont is not exist")
-            return ;
+            println("phone is not exist")
+            Alert("phone is not exist")
+            return
         }
         let people = People(number: numberField.text.toInt()!, name: nameField.text, telePhone: telePhoneField.text)
         delegate?.addDataFinished(people)
@@ -64,12 +77,12 @@ class DetailViewController: UIViewController {
     
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

@@ -55,7 +55,7 @@ class AddressListViewController: UITableViewController, AddDataProtocol, UITable
     
     // MARK: - Table View Delegate
     override func tableView(tableView: UITableView!, heightForRowAtIndexPath indexPath: NSIndexPath!) -> CGFloat {
-        return 44.0;
+        return 44.0
     }
     
     override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
