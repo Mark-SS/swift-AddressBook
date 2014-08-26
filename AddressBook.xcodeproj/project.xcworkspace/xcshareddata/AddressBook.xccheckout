@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>31A1507A-169D-4107-89C9-2DAF1EE41C29</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AddressBook</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>800431475CB5D67EFF53FD873B01E6E5FD5D9AFC</key>
+		<string>github.com:Mark-SS/swift-AddressBook.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AddressBook.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>800431475CB5D67EFF53FD873B01E6E5FD5D9AFC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Mark-SS/swift-AddressBook.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>800431475CB5D67EFF53FD873B01E6E5FD5D9AFC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>800431475CB5D67EFF53FD873B01E6E5FD5D9AFC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AddressBook</string>
+		</dict>
+	</array>
+</dict>
+</plist>
