@@ -15,6 +15,7 @@
 		3E247A2F19AC203B0089E8A4 /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E247A2E19AC203B0089E8A4 /* AddressCell.swift */; };
 		3E247A3119AC28160089E8A4 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E247A3019AC28160089E8A4 /* People.swift */; };
 		3E247A3319AC6D890089E8A4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E247A3219AC6D890089E8A4 /* DetailViewController.swift */; };
+		3E975D5819ADA2C500427E9D /* AddressDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E975D5719ADA2C500427E9D /* AddressDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3E247A2E19AC203B0089E8A4 /* AddressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
 		3E247A3019AC28160089E8A4 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		3E247A3219AC6D890089E8A4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3E975D5719ADA2C500427E9D /* AddressDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				3E247A3219AC6D890089E8A4 /* DetailViewController.swift */,
 				3E247A2E19AC203B0089E8A4 /* AddressCell.swift */,
 				3E247A3019AC28160089E8A4 /* People.swift */,
+				3E975D5719ADA2C500427E9D /* AddressDataManager.swift */,
 				3E247A1319AC1D8D0089E8A4 /* Main.storyboard */,
 				3E247A1619AC1D8D0089E8A4 /* Images.xcassets */,
 				3E247A0D19AC1D8D0089E8A4 /* Supporting Files */,
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E975D5819ADA2C500427E9D /* AddressDataManager.swift in Sources */,
 				3E247A3119AC28160089E8A4 /* People.swift in Sources */,
 				3E247A1019AC1D8D0089E8A4 /* AppDelegate.swift in Sources */,
 				3E247A3319AC6D890089E8A4 /* DetailViewController.swift in Sources */,
@@ -409,6 +413,7 @@
 				3E247A2819AC1D8D0089E8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E247A2919AC1D8D0089E8A4 /* Build configuration list for PBXNativeTarget "AddressBookTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				3E247A2B19AC1D8D0089E8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
