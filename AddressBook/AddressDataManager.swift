@@ -9,7 +9,7 @@
 import UIKit
 
 class AddressDataManager: NSObject {
-
+    
     class func peopleDatas() -> NSArray {
         if let array: AnyObject = NSUserDefaults.standardUserDefaults().objectForKey("people") {
             var datasArray: NSMutableArray = []
@@ -34,6 +34,17 @@ class AddressDataManager: NSObject {
             array.addObject(dic)
             NSUserDefaults.standardUserDefaults().setObject(array, forKey: "people")
             NSUserDefaults.standardUserDefaults().synchronize()
+        }
+    }
+    
+    class func deletePeople(people: People) {
+        if let array: AnyObject = NSUserDefaults.standardUserDefaults().objectForKey("people") {
+            array.enumerateObjectsUsingBlock({ (dic, index, stop) -> Void in
+                let numberString = dic["number"] as String
+                let number = numberString.toInt()
+                let name = dic["name"] as String
+                let tel = dic["telePhone"] as String
+            })
         }
     }
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol AddDataProtocol {
+protocol AddDataProtocol: NSObjectProtocol {
     func addDataFinished(people: People)
 }
 

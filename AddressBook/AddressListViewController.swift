@@ -15,6 +15,8 @@ class AddressListViewController: UITableViewController, AddDataProtocol, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
         var people = People(number: 100001, name: "mark", telePhone: "18668222270")
+        let aa = people.respondsToSelector(Selector("say:tel:"))
+        println("aa = \(aa)")
         tableData.addObject(people)
         self.tableView.reloadData()
     }

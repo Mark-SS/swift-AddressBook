@@ -17,4 +17,9 @@ class People: NSObject {
         self.name = name
         self.telePhone = telePhone
     }
+    
+    func say(name: String, tel:String) {
+    
+    }
 }
+
