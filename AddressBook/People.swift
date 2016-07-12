@@ -18,7 +18,7 @@ class People: NSObject {
         self.telePhone = telePhone
     }
     
-    func say(name: String, tel:String) {
+    func say(#name: String, tel:String) {
     
     }
 }
